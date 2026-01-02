@@ -37,7 +37,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-gfm-admonitions
 
-repository: keinriesenradinparis/tests
+repository: keinriesenradinparis/test
+
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
