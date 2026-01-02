@@ -35,6 +35,12 @@ markdown: kramdown
 header_pages:
 - _pages/trabajos.md
 
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
 #remote_theme: pages-themes/primer
 plugins:
   - jekyll-remote-theme
