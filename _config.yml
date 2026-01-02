@@ -32,6 +32,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 
+header_pages:
+- _pages/trabajos.md
+
 #remote_theme: pages-themes/primer
 plugins:
   - jekyll-remote-theme
@@ -41,7 +44,7 @@ repository: keinriesenradinparis/test
 
 
 include:
-  - /_pages
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
