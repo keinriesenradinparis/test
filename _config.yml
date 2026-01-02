@@ -37,7 +37,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-gfm-admonitions
 
-repository: Helveg/jekyll-gfm-admonitions
+# repository: Helveg/jekyll-gfm-admonitions
 
 # Exclude from processing.
 # The following items will not be processed, by default.
